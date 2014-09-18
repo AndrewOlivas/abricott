@@ -14,3 +14,38 @@ h2 {
   font-family: inherit;
 }
 
+@media screen and (max-width:959px){
+  #left-column{
+    width: 70%;
+  }
+  #right-column{
+    width: 30%;
+  }
+  /*img{
+    width: 100%;
+  }*/
+  #logo{
+    width: 100%
+  }
+}
+
+@media screen and (max-width:640px){
+  #left-column{
+    width: 100%;
+  }
+  #right-column{
+    width: 100%;
+  }
+  #logo{
+    width: 640px;
+  }
+}
+
+@media screen and (max-width:320px){
+  #logo{
+    width: 320px;
+  }
+  #logo{
+    
+  }
+}
