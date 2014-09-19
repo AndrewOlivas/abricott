@@ -27,9 +27,6 @@ h2 {
   #logo{
     width: 100%
   }
-  #fs{
-    width: 959;
-  }
 }
 
 @media screen and (max-width:640px){
@@ -42,9 +39,6 @@ h2 {
   #logo{
     width: 640px;
   }
-  #fs{
-    width: 640px;
-  }
 }
 
 @media screen and (max-width:320px){
@@ -52,8 +46,5 @@ h2 {
     width: 320px;
   }
   #logo{
-  }
-  #fs{
-    width: 320px;
   }
 }
