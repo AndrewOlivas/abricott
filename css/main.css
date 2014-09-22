@@ -14,10 +14,6 @@ h2 {
   font-family: inherit;
 }
 
-@import "bootstrap";{
-  .modal-backdrop {background-color: orange;}
-}
-
 @media screen and (max-width:959px){
   #left-column{
     width: 70%;
