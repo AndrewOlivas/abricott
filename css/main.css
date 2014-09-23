@@ -32,43 +32,54 @@ h5 {
   #container{
     width: 100%;
  }
- #column1{ 
+ .h1{ 
   width: 70%;
  }
- #column2{
+ .bio h2{
   width: 30%;
  }
- img{
-  width: 100%;
+ .logo img{
+  width: 100%
  }
 }
 @media screen and (max-width:640px){
-  #column1{
+  .h1{
     width: 640%;
   }
-  #column2{
+  .bio h2{
     width: 640%;
   }
-  img{
-    width: 640px;
-  }
+   .blt h3{
+    width:640px;
+ }
+ .dt h4{
+    width:640px;
+  
+ }
 }
 @media  (max-width:320px){
   #container{
     width: 320px;
   }
-  #column1{
+  .h1{
     width: 320px;
+    
   }
-  #column2{
+  .bio h2{
     width: 320px;
-  }
-  img{
-    width: 320px;
+    padding-top:105%;
   }
   .logo img{
     width: 320px;
   }
+  .blt h3{
+    width:320px;
+  
+ }
+ .dt h4{
+    width:320px;
+  
+ }
 
 }
 /*media queries end*/
