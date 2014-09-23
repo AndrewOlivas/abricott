@@ -18,44 +18,58 @@ h3 {
   font-size: 20px;
   font-family: inherit;
 }
-
-@media screen and (max-width:959px){
-  #left-column{
-    width: 70%;
-  }
-  #right-column{
-    width: 30%;
-  }
-  /*img{
-    width: 100%;
-  }*/
-  #logo{
-    width: 100%
-  }
+h4 {
+  font-size: 20px;
+  font-family: inherit;
+}
+h5 {
+  font-size: 20px;
+  font-family: inherit;
 }
 
+
+@media screen and (max-width:959px){
+  #container{
+    width: 100%;
+ }
+ #column1{ 
+  width: 70%;
+ }
+ #column2{
+  width: 30%;
+ }
+ img{
+  width: 100%;
+ }
+}
 @media screen and (max-width:640px){
-  #left-column{
-    width: 100%;
+  #column1{
+    width: 640%;
   }
-  #right-column{
-    width: 100%;
+  #column2{
+    width: 640%;
   }
-  #logo{
+  img{
     width: 640px;
   }
 }
-
-@media screen and (max-width:320px){
-  #logo{
+@media  (max-width:320px){
+  #container{
     width: 320px;
   }
-  #logo{
+  #column1{
+    width: 320px;
   }
-}
+  #column2{
+    width: 320px;
+  }
+  img{
+    width: 320px;
+  }
+  .logo img{
+    width: 320px;
+  }
 
-/*media queries end*/
-/*viewport css*/
-@-ms-viewport{
-  width: device-width;
 }
+/*media queries end*/
+
