@@ -28,59 +28,26 @@ h5 {
 }
 
 
-@media screen and (max-width:959px){
-  #container{
-    width: 100%;
- }
- .h1{ 
-  width: 70%;
- }
- .bio h2{
-  width: 30%;
- }
- .logo img{
-  width: 100%
- }
-}
-@media screen and (max-width:640px){
-  .h1{
-    width: 640%;
+@media (max-width: 320px) {
+  .asg img{
+    width:351px;
   }
-  .bio h2{
-    width: 640%;
-  }
-   .blt h3{
-    width:640px;
- }
- .dt h4{
-    width:640px;
-  
- }
-}
-@media  (max-width:320px){
-  #container{
+  .menu-modal{
     width: 320px;
-  }
-  .h1{
-    width: 320px;
-    
-  }
-  .bio h2{
-    width: 320px;
-    padding-top:105%;
   }
   .logo img{
-    width: 320px;
+    width: 200px;
   }
-  .blt h3{
-    width:320px;
-  
- }
- .dt h4{
-    width:320px;
-  
- }
+  h2 {
+    
 
-}
+  }
+
+
+  }
+
+
+
+
 /*media queries end*/
 
