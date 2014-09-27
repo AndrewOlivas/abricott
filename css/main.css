@@ -7,24 +7,36 @@ body {
 h1 {
   font-size: 18px;
   font-family: inherit;
+  margin-top: -490px;
+  margin-left: 600px;
 }
 
 h2 {
   font-size: 20px;
   font-family: inherit;
+  text-align: right;
+  border: whitesmoke;
+  width: 320px;
+  margin-left: 75%;
 }
 
 h3 {
   font-size: 20px;
   font-family: inherit;
+  border: whitesmoke;
+  width: 320px;
 }
 h4 {
   font-size: 20px;
   font-family: inherit;
+  border: whitesmoke;
+  width: 320px;
 }
 h5 {
   font-size: 20px;
   font-family: inherit;
+  border: whitesmoke;
+  width: 320px;
 }
 
 
@@ -33,6 +45,7 @@ h5 {
 @media (max-width: 320px) {
   .asg img{
     width:351px;
+    margin-top: 40px;
   }
   .menu-modal{
     width: 320px;
@@ -42,6 +55,8 @@ h5 {
   }
   h2 {
   padding-top: 300px;
+  font-size: 11px;
+  margin-left: -10%;
   }
 }
 
